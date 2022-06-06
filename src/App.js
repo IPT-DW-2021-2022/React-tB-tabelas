@@ -14,10 +14,12 @@ class App extends React.Component {
       <div className="container">
         <h1>Alunos</h1>
         <h4>Primeira tabela</h4>
+        <p>tabela com código <i>100% hardcode</i></p>
         <Tabela />
 
         <br />
         <h4>Segunda tabela</h4>
+        <p>Uso de componentes internos</p>
         <Tabela2 />
 
 
